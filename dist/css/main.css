@@ -114,7 +114,7 @@ img {
     padding: 1rem 1rem; }
   #main-nav a {
     text-decoration: none;
-    color: #ffbc00;
+    color: #744812;
     text-shadow: 2px;
     text-transform: uppercase;
     border-bottom: 3px transparent solid;
@@ -128,12 +128,13 @@ img {
 #header-home {
   background: url("../image/showcase.jpg") no-repeat center right/cover;
   height: 100vh;
-  color: dark; }
+  align-items: center;
+  color: #744812; }
 
-#header .header-content {
+#header .header-content .lead {
   text-align: center;
   padding-top: 20%; }
-  #header .header-content h1 {
+  #header .header-content .lead h1 {
     font-size: 4rem;
     line-height: 1.2; }
 
@@ -173,7 +174,8 @@ img {
     top: 0;
     right: 0;
     font-size: 28px;
-    background: #ffbc00;
+    background: #f4f4f4;
+    color: #000;
     border-radius: 50%;
     height: 15px;
     width: 15px;
@@ -197,4 +199,26 @@ img {
       height: 90px;
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
-        background: #744812; }
+        background: #744812;
+        color: #fff; }
+
+#main-footer {
+  background: #744812;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      width: 20px;
+      height: 20px;
+      line-height: 20px;
+      text-align: center;
+      padding: 0.5rem; }
+      #main-footer .footer-content .social .fab:hover {
+        background: #ffbc00; }
